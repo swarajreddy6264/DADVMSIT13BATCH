@@ -1,0 +1,165 @@
+
+
+<html>
+  <head>
+		<!-- <script type="text/javascript" src="C:\xampp\htdocs\Elections\web\js\partywiselist.js"></script> -->
+<!--<script type="text/javascript">	
+	function update(){
+ 
+            var list1 = document.getElementById('state1');
+            var list2 = document.getElementById("constituency1");
+            var list1SelectedValue = list1.options[list1.selectedIndex].value;
+             
+            if (list1SelectedValue=='S26')
+            {
+                 
+                list2.options.length=0;
+                list2.options[0] = new Option('--Select Constituency--', '');
+                list2.options[1] = new Option('Abhanpur', 'Abhanpur', 'Abhanpur', 'Abhanpur', 'Abhanpur');
+                list2.options[2] = new Option('Ahiwara', 'Ahiwara', 'Ahiwara', 'Ahiwara', 'Ahiwara');
+                list2.options[3] = new Option('Akaltara', 'Akaltara', 'Akaltara', 'Akaltara', 'Akaltara');
+                list2.options[4] = new Option('Arang', 'Arang', 'Arang', 'Arang', 'Arang');
+                list2.options[5] = new Option('Basna', 'Basna', 'Basna', 'Basna', 'Basna');
+                list2.options[6] = new Option('Bastar', 'Bastar', 'Bastar', 'Bastar', 'Bastar');
+				list2.options[7] = new Option('Bijapur', 'Bijapur', 'Bijapur', 'Bijapur', 'Bijapur');
+				list2.options[8] = new Option('Beltara', 'Beltara', 'Beltara', 'Beltara', 'Beltara');
+				list2.options[9] = new Option('Bilha', 'Bilha', 'Bilha', 'Bilha', 'Bilha');
+				list2.options[10] = new Option('Durg City', 'Durg City', 'Durg City', 'Durg City', 'Durg City');
+
+                 
+            }
+            else if (list1SelectedValue=='S29')
+            {
+                 
+                list2.options.length=0;
+                list2.options[0] = new Option('--Select Constituency--', '');
+                list2.options[1] = new Option('Aliar','Aliar','Aliar','Aliar','Aliar');
+                list2.options[2] = new Option('Armur','Armur','Armur','Armur','Armur');
+                list2.options[3] = new Option('Boath','Boath','Boath','Boath','Boath');
+                list2.options[4] = new Option('Chennur','Chennur','Chennur','Chennur','Chennur');
+                list2.options[5] = new Option('Chevella','Chevella','Chevella','Chevella','Chevella');
+				list2.options[6] = new Option('Dubbak','Dubbak','Dubbak','Dubbak','Dubbak');
+                list2.options[7] = new Option('Gadwal','Gadwal','Gadwal','Gadwal','Gadwal');
+                list2.options[8] = new Option('Jagtial','Jagtial','Jagtial','Jagtial','Jagtial');
+                list2.options[9] = new Option('Jukkal','Jukkal','Jukkal','Jukkal','Jukkal');
+                list2.options[10] = new Option('Mulug','Mulug','Mulug','Mulug','Mulug');
+                 
+            }
+			else if (list1SelectedValue=='S16')
+            {
+                 
+                list2.options.length=0;
+                list2.options[0] = new Option('--Select Constituency--', '');
+                list2.options[1] = new Option('Aizawl North-i','Aizawl North-i','Aizawl North-i','Aizawl North-i','Aizawl North-i');
+                list2.options[2] = new Option('Aizawl North-ii','Aizawl North-ii','Aizawl North-ii','Aizawl North-ii','Aizawl North-ii');
+                list2.options[3] = new Option('Aizawl North-iii','Aizawl North-iii','Aizawl North-iii','Aizawl North-iii','Aizawl North-iii');
+                list2.options[4] = new Option('Aizawl East-i','Aizawl East-i','Aizawl East-i','Aizawl East-i','Aizawl East-i');
+                list2.options[5] = new Option('Aizawl East-ii','Aizawl East-ii','Aizawl East-ii','Aizawl East-ii','Aizawl East-ii');
+				list2.options[6] = new Option('Aizawl South-i','Aizawl South-i','Aizawl South-i','Aizawl South-i','Aizawl South-i');
+                list2.options[7] = new Option('Aizawl South-ii','Aizawl South-ii','Aizawl South-ii','Aizawl South-ii','Aizawl South-ii');
+                list2.options[8] = new Option('Aizawl South-iii','Aizawl South-iii','Aizawl South-iii','Aizawl South-iii','Aizawl South-iii');
+                list2.options[9] = new Option('Aizawl West-i','Aizawl West-i','Aizawl West-i','Aizawl West-i','Aizawl West-i');
+                list2.options[10] = new Option('Aizawl West-ii','Aizawl West-ii','Aizawl West-ii','Aizawl West-ii','Aizawl West-ii');
+				list2.options[11] = new Option('Aizawl West-iii','Aizawl West-iii','Aizawl West-iii','Aizawl West-iii','Aizawl West-iii');
+                 
+            }
+			else if (list1SelectedValue=='S20')
+            {
+                 
+                list2.options.length=0;
+                list2.options[0] = new Option('--Select--', '');
+                list2.options[0] = new Option('--Select Constituency--', '');
+                list2.options[1] = new Option('Ahore','Ahore','Ahore','Ahore','Ahore');
+                list2.options[2] = new Option('Amber','Amber','Amber','Amber','Amber');
+                list2.options[3] = new Option('Anta','Anta','Anta','Anta','Anta');
+                list2.options[4] = new Option('Asind','Asind','Asind','Asind','Asind');
+                list2.options[5] = new Option('Bali','Bali','Bali','Bali','Bali');
+				list2.options[6] = new Option('Bagru','Bagru','Bagru','Bagru','Bagru');
+                list2.options[7] = new Option('Bansur','Bansur','Bansur','Bansur','Bansur');
+                list2.options[8] = new Option('Bari','Bari','Bari','Bari','Bari');
+                list2.options[9] = new Option('Bassi','Bassi','Bassi','Bassi','Bassi');
+                list2.options[10] = new Option('Bhim','Bhim','Bhim','Bhim','Bhim');
+             
+            }
+			else if (list1SelectedValue=='S12')
+            {
+                 
+                list2.options.length=0;
+                list2.options[0] = new Option('--Select Constituency--', '');
+                list2.options[1] = new Option('AGAR','AGAR','AGAR','AGAR','AGAR');
+                list2.options[2] = new Option('ALOTE','ALOTE','ALOTE','ALOTE','ALOTE');
+                list2.options[3] = new Option('AMLA','AMLA','AMLA','AMLA','AMLA');
+                list2.options[4] = new Option('ASHTA','ASHTA','ASHTA','ASHTA','ASHTA');
+                list2.options[5] = new Option('ATER','ATER','ATER','ATER','ATER');
+				list2.options[6] = new Option('BAGLI','BAGLI','BAGLI','BAGLI','BAGLI');
+                list2.options[7] = new Option('BAIHAR','BAIHAR','BAIHAR','BAIHAR','BAIHAR');
+                list2.options[8] = new Option('BANDA','BANDA','BANDA','BANDA','BANDA');
+                list2.options[9] = new Option('BARGI','BARGI','BARGI','BARGI','BARGI');
+                list2.options[10] = new Option('BETUL','BETUL','BETUL','BETUL','BETUL');
+               
+            }
+}
+</script>-->
+ 
+</head>
+  <body style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px;>
+    <form name="aspnetForm" id="aspnetForm">
+	 
+        <div>
+            <table width="1260px" >
+                
+				<div>
+				<h1><a  id='elLogo' accesskey='1'><img src="https://eci.gov.in/uploads/monthly_2018_09/logo.png.7059356d074558af6c8631865fece9f4.png" alt='Election Commission of India' height="125" width="525"></a></h1>
+				    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                     <nav>
+                        <ul class="nav navbar-nav">
+                           <li> <a href="file:///C:/xampp/htdocs/Elections/web/Constituencywise.html">Constituencywise</a></li>
+                           <li><a href="file:///C:/xampp/htdocs/Elections/web/Trends.html">Trends</a></li>
+                    
+                        </ul>
+                     </nav>
+                  </div>	                 
+                  </div>
+
+			<div>
+			   <tr>
+                    <td style="text-align: center; font-size: 30px; font-weight: bold">
+                        GENERAL ELECTION & RESULT 2018
+                    </td>
+                </tr>
+
+			</div>
+		</div>
+		
+		<table style="width: 780px;  margin: auto; width: 60%; font-family: Verdana; border: solid 1px black;
+                        font-weight: lighter">
+                            <tr>
+                                <td colspan="2" align="center" style="font-size: large;">
+                                    Constituencywise-All Candidates
+                                </td>
+                            </tr>
+                            <tr style="height: 20px; color: Black">
+                                <td style="width: 50%; font-weight: 700;" colspan="2" align="center">
+                                    <b>Select State</b>
+                                    <select name="ctl00$ContentPlaceHolder1$ACWise1$ddlState" id="state1"  onchange="update()" >
+                                        <option selected="selected" value="Select State">Select State</option>                                                                                 
+                                    <!--    <option value="chattisgarh constituency.html">Chhattisgarh</option>
+                                        <option value="madhya pradesh constituency.html">Madhya Pradesh</option>
+                                        <option value="mizoram constituency.html">Mizoram</option>
+                                        <option value="rajasthan constituency.html">Rajasthan</option>
+                                        <option value="telangana constituency.html">Telangana</option> -->
+										
+										<option value="S26">Chhattisgarh</option>
+                                        <option value="S12">Madhya Pradesh</option>
+                                        <option value="S16">Mizoram</option>
+                                        <option value="S20">Rajasthan</option>
+                                        <option value="S29">Telangana</option>
+                                        
+                                    </select>
+                                     
+                        </table>
+		</body>
+
+			
+</html>
+                     
